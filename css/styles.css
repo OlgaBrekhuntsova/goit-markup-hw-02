@@ -1,0 +1,43 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-light-theme-color: #212121;
+  --title-dark-theme-color: #ffffff;
+  --text-light-theme-color: #757575;
+  --text-dark-theme-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #e5e5e5;
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: var(--text-light-theme-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/*HEADER*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+.logo-part {
+  color: var(--accent-color);
+}
+.nav-list-link {
+}
+.nav-list-link:hover {
+  color: ;
+}
+.nav-list-link:focus {
+  color: ;
+}
+
+.description;
