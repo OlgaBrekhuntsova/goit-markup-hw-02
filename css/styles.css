@@ -12,7 +12,7 @@
   --svg-color-accent: #2196f3;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: var(--title-dark-theme-color);
   font-family: var(--main-font);
   font-size: 14px;
   color: var(--text-light-theme-color);
@@ -120,6 +120,10 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
 }
 /*TEAM SECTION*/
+.team {
+  background-color: var(--rectangle-background-color);
+}
+
 .team .subtitle {
   font-weight: 500;
   font-size: 16px;
@@ -159,12 +163,49 @@ body {
 .footer .logo {
   color: var(--title-dark-theme-color);
 }
-.footer-contact-adress-list-item-link .map {
-line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--title-dark-theme-color);
+.footer-contact-adress-list-item-link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-dark-theme-color);
+}
+.footer .footer-contact-adress-list-item-link.map {
+  color: var(--title-dark-theme-color);
 }
 
+.footer-contact-adress-list-item-link:hover,
+.footer .footer-contact-adress-list-item-link.map:hover,
+.footer-contact-adress-list-item-link:focus,
+.footer .footer-contact-adress-list-item-link.map:focus {
+  color: var(--accent-color);
+}
+/*PORTFOLIO*/
 
-
-footer-contact-adress-list-item-link
+.projects-name-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-light-theme-color);
+}
+.projects-name-class {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-light-theme-color);
+}
+.projects-name-description {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
+.portfolio-projects-list-img-description {
+  color: rgba(47, 48, 58, 0);
+}
+.portfolio-projects-list-img-description:hover,
+.portfolio-projects-list-img-description:focus {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--title-dark-theme-color);
+  background-color: rgba(33, 150, 243, 0.9);
+}
