@@ -197,15 +197,6 @@ body {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-}
-.portfolio-projects-list-img-description {
-  color: rgba(47, 48, 58, 0);
-}
-.portfolio-projects-list-img-description:hover,
-.portfolio-projects-list-img-description:focus {
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
   color: var(--title-dark-theme-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
